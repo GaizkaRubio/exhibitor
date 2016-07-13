@@ -95,6 +95,11 @@ public class DefaultProperties
                     {
                         return backupExtraValue;
                     }
+
+                    case SASL_MANDATORY:
+                    {
+                        return "true";
+                    }
                 }
                 return "";
             }

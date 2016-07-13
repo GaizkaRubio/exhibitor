@@ -133,6 +133,15 @@ public enum StringConfigs
         {
             return true;
         }
+    },
+
+    SASL_MANDATORY
+    {
+        @Override
+        public boolean isRestartSignificant()
+        {
+            return false;
+        }
     }
     ;
 
